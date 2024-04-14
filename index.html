@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>BeyondOrdinary | Home</title>
+</head>
+
+<body>
+
+  <!--  CURSOR   -->
+  <div class="inner-cursor"></div>
+  <div class="outer-cursor"></div>
+
+
+  <!--  HEADER   -->
+  <div class="container">
+    <header>
+      <div class="brand">
+        <h1><span class="bigger">&#9863;</span> BeyondOrdinary</h1>
+      </div>
+      <nav>
+        <div class="nav-style">
+          <ul class="nav_links">
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="services.html">Services &#9662;</a>
+              <ul class="dropdown">
+                <li><a href="blog-home.html">Blog</a></li>
+                <li><a href="courses.html">Courses</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Resources &#9662;</a>
+              <ul class="dropdown">
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">About &#9662;</a>
+              <ul class="dropdown">
+                <li><a href="woman.html">Women</a></li>
+                <li><a href="about.html">About</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <a class="cta" href="contact.html"><button class="contact"> CONTACT
+          &nbsp; &#8599;</button></a>
+    </header>
+  </div>
+
+  <!--  INTRO HTML   -->
+  <div class="intro-text">
+    <h1><span class="blue">TRANSFORMING</span> INDUSTRIES <br>THROUGH&nbsp;<span class="circle">WOMEN-DRIVEN</span>
+      <br>INNOVATION <span class="women-symbol">&#x2640;</span>
+    </h1>
+
+    <p>
+      DISCOVER A SUPPORTIVE COMMUNITY DEDICATED TO <br>UNCOVERING POTENTIAL AND EMPOWERING EACHOTHER.
+    </p>
+
+    <a class="l-m" href="about.html"><button class="learn"> LEARN <span>MORE&nbsp;<span
+            class="bigger-2">&nbsp;&#x279A;</span></button></a>
+
+  </div>
+
+  <!--  INTRO-IMAGE HTML   -->
+  <div class="image-test-1">
+    <img src="images/women-1.png" alt="">
+    <p>FORMER PRIME</p>
+    <h2>MINISTER</h2>
+  </div>
+  <div class="image-test-2">
+    <img src="images/women-2.png" alt="">
+    <p>SOUTH KOREAN</p>
+    <h2>PRESIDENT</h2>
+  </div>
+  <div class="image-test-3">
+    <img src="images/women-3.png" alt="">
+    <p>MATHEMATICIAN &</p>
+    <h2>AEROSPACE ENGINEER</h2>
+  </div>
+  <div class="image-test-4">
+    <img src="images/women-4.png" alt="">
+    <p>ASTRONAUT &</p>
+    <h2>AEROSPACE ENGINEER</h2>
+  </div>
+  <div class="women-symbol-img">
+    <img src="images/women-symbol.png" alt="">
+  </div>
+  <div class="chatbot-container">
+    <button class="open-chat-btn" onclick="toggleChat()">Chat</button>
+    <div class="chat-popup" id="chat-popup">
+      <div class="chat-header">Chat with Bot</div>
+      <div class="chat-area" id="chat-area">
+        <div class="chat-message bot">Hello! How can I assist you today?</div>
+      </div>
+      <input type="text" id="user-input" class="user-input" placeholder="Type your message...">
+      <button class="send-btn" onclick="sendMessage()">Send</button>
+      <button class="close-chat-btn" onclick="toggleChat()">Close</button>
+    </div>
+  </div>
+
+
+  <script defer src="script.js"></script>
+</body>
+
+</html>

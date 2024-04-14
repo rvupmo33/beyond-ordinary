@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>BeyondOrdinary | HTML Course</title>
+</head>
+
+<body>
+  <!--  CURSOR   -->
+  <div class="inner-cursor"></div>
+  <div class="outer-cursor"></div>
+
+
+  <!--  HEADER   -->
+  <div class="container">
+    <header>
+      <div class="brand">
+        <h1><span class="bigger">&#9863;</span> BeyondOrdinary</h1>
+      </div>
+      <nav>
+        <div class="nav-style">
+          <ul class="nav_links">
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="services.html">Services &#9662;</a>
+              <ul class="dropdown">
+                <li><a href="blog-home.html">Blog</a></li>
+                <li><a href="courses.html">Courses</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Resources &#9662;</a>
+              <ul class="dropdown">
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">About &#9662;</a>
+              <ul class="dropdown">
+                <li><a href="woman.html">Women</a></li>
+                <li><a href="about.html">About</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <a class="cta" href="contact.html"><button class="contact"> CONTACT
+          &nbsp; &#8599;</button></a>
+    </header>
+  </div>
+
+  <button class="go-back">Return</button>
+
+  <div class="intro-html">
+    <h1>Lesson 1: Introduction to HTML</h1>
+    <hr>
+
+    <div class="text-course">
+      <h2>What is HTML?</h2>
+      <p>
+        HTML stands for Hypertext Markup Language. It's the standard markup language
+        used to create web pages. HTML provides the structure and layout of a web page
+        by using a variety of tags and attributes to define elements such as headings,
+        paragraphs, images, links, and more. It works in conjunction with cascading style
+        sheets (CSS) and JavaScript to build interactive and visually appealing web pages.
+      </p>
+
+      <h2>HTML Document layout</h2>
+      <div class="html-sample">
+        <div class="sample-inner">
+          <img src="images/html-code.png">
+        </div>
+      </div>
+      <p class="explanation">
+        • The
+        <!DOCTYPE html> declaration specifies that the document is an HTML5 document.<br>
+        • The <html> element is the root element.<br>
+        • The
+
+        <head> section contains metadata, including the document's character set,
+          title, link to an external stylesheet (styles.css), and a script (script.js). <br>
+          • The
+
+        <body> section contains visible content such as headings (h1), paragraphs (p), images (img), and a
+          hyperlink (a).
+      </p>
+      <h2>HTML Tags</h2>
+      <p>HTML Tags have a starting tag - content - ending tag
+        <br>
+        <br>Starting tag: &lt;h1&gt;<br>
+        Ending tag: &lt;/h1&gt;
+      </p>
+      <br>
+      <div class="tag-img">
+        <img src="images/html-tag.png">
+      </div>
+
+      <h2>HTML Headers</h2>
+      <p>
+        HTML &lt;h&gt; elements are used to define headings in a webpage. These elements
+        range from &lt;h1&gt; to &lt;h6&gt;, with &lt;h1&gt; being the highest level (most important)
+        heading and &lt;h6&gt; being the lowest level (least important) heading.
+        <br><br>
+        • &lt;h1&gt;: This is the main heading of a page or a section. It's usually the largest and most prominent
+        heading on the page. Use it sparingly to represent the main topic or title of your content.
+        <br><br>
+        • &lt;h2&gt;: These are used for subheadings within sections created by <&lt;h1&gt; headings. They are slightly
+          smaller than &lt;h1&gt; headings and can be used to divide content into smaller chunks. <br><br>
+          • &lt;h3&gt; to &lt;h6&gt;: These are progressively smaller headings used for sub-subheadings and so on. They
+          are used to further organize and structure content hierarchically.
+      </p>
+      <div class="heading-img">
+        <img src="images/html-headings.png">
+      </div>
+      <hr>
+    </div>
+
+    <div class="quiz-go-to">
+      <h3>Feeling Confident? Take the quiz to test your understanding! --&gt; </h3>
+      <button class="go-to-quiz"><a href="test.html">Click me!</a></button>
+    </div>
+  </div>
+
+  <footer id="footer">
+    <div id="footer-content">© 2024 Beyond Ordinary. All rights reserved | Images do not belong to us.</div>
+  </footer>
+
+  <script defer src="script.js"></script>
+</body>
+
+</html>

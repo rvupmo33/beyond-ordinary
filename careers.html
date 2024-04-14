@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BeyondOrdinary | Careers</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    h2 {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .container-9 {
+      background: #aec3e5;
+      flex: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 25px;
+      margin-bottom: 40px;
+    }
+
+    .job-postings {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .job-posting {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .job-posting:hover {
+      transform: translateY(-5px);
+    }
+
+    .job-posting h2 {
+      color: #333;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .job-posting p {
+      color: #666;
+      line-height: 1.6;
+    }
+
+    .job-posting a {
+      margin-top: auto;
+      align-self: flex-end;
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #aec3e5;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      border: 1px solid black;
+      transition: all 0.3s ease 0.1s;
+    }
+
+    .job-posting a:hover {
+      background-color: #f2c5d5;
+      scale: 1.02;
+    }
+  </style>
+</head>
+
+<body>
+  <!--  CURSOR   -->
+  <div class="inner-cursor"></div>
+  <div class="outer-cursor"></div>
+
+
+  <!--  HEADER   -->
+  <div class="container">
+    <header>
+      <div class="brand">
+        <h1><span class="bigger">&#9863;</span> BeyondOrdinary</h1>
+      </div>
+      <nav>
+        <div class="nav-style">
+          <ul class="nav_links">
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="services.html">Services &#9662;</a>
+              <ul class="dropdown">
+                <li><a href="blog-home.html">Blog</a></li>
+                <li><a href="courses.html">Courses</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Resources &#9662;</a>
+              <ul class="dropdown">
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">About &#9662;</a>
+              <ul class="dropdown">
+                <li><a href="woman.html">Women</a></li>
+                <li><a href="about.html">About</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <a class="cta" href="contact.html"><button class="contact"> CONTACT
+          &nbsp; &#8599;</button></a>
+    </header>
+  </div>
+
+  <h2>Job Postings</h2>
+
+
+  <!-- Job Postings -->
+  <div class="container-9">
+    <section class="job-postings">
+      <!-- Job postings will be dynamically added here -->
+    </section>
+  </div>
+
+
+  <script src="script.js"></script>
+  <script>
+    const jobPostings = [
+      {
+        title: "Software Engineer",
+        role: "Full-time",
+        location: "Remote",
+        description: "We are looking for a skilled software engineer to join our team.",
+        skills: ["JavaScript", "React", "Node.js"]
+      },
+      {
+        title: "Political Analyst",
+        role: "Contract",
+        location: "Washington, D.C.",
+        description: "We are seeking a political analyst to provide insights and analysis on current political events.",
+        skills: ["Political Science", "Research", "Public Policy"]
+      },
+      {
+        title: "Model United Nations (MUN) Coordinator",
+        role: "Part-time",
+        location: "New York, NY",
+        description: "Join our team as a Model United Nations coordinator to organize and oversee MUN conferences.",
+        skills: ["Leadership", "Event Planning", "Public Speaking"]
+      },
+      {
+        title: "Elementary School Teacher",
+        role: "Full-time",
+        location: "Los Angeles, CA",
+        description: "We are hiring an enthusiastic elementary school teacher to educate and inspire young minds.",
+        skills: ["Teaching", "Classroom Management", "Curriculum Development"]
+      },
+      {
+        title: "Administrative Assistant",
+        role: "Internship",
+        location: "Chicago, IL",
+        description: "We are seeking a motivated administrative assistant intern to support our office operations.",
+        skills: ["Organizational Skills", "Communication", "Microsoft Office"]
+      },
+      {
+        title: "Research Scientist",
+        role: "Full-time",
+        location: "Boston, MA",
+        description: "Join our research team to conduct cutting-edge scientific research in your field of expertise.",
+        skills: ["Research Methodologies", "Data Analysis", "Publication"]
+      },
+      {
+        title: "Sports Coach",
+        role: "Part-time",
+        location: "London, UK",
+        description: "We are looking for a passionate sports coach to train and mentor athletes in various sports.",
+        skills: ["Sports Training", "Motivation", "Team Building"]
+      },
+      {
+        title: "Dance Instructor",
+        role: "Freelance",
+        location: "San Francisco, CA",
+        description: "Join our dance studio as a freelance dance instructor to teach various dance styles.",
+        skills: ["Dance Technique", "Choreography", "Performance"]
+      },
+      {
+        title: "Women's Health Nurse Practitioner",
+        role: "Full-time",
+        location: "New York, NY",
+        description: "We are seeking a dedicated Women's Health Nurse Practitioner to provide comprehensive healthcare services to women of all ages.",
+        skills: ["Women's Health", "Primary Care", "Patient Counseling"]
+      },
+
+    ];
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const jobPostingsContainer = document.querySelector('.job-postings');
+
+      // Function to generate HTML for a single job posting
+      function generateJobPostingHTML(jobPosting) {
+        return `
+          <div class="job-posting">
+            <h2>${jobPosting.title}</h2>
+            <p><strong>Role:</strong> ${jobPosting.role}</p>
+            <p><strong>Location:</strong> ${jobPosting.location}</p>
+            <p><strong>Description:</strong> ${jobPosting.description}</p>
+            <p><strong>Skills:</strong> ${jobPosting.skills.join(', ')}</p>
+            <a href="job1.html">Apply Now</a>
+          </div>
+        `;
+      }
+
+      // Function to display job postings in a grid layout
+      function displayJobPostings() {
+        jobPostings.forEach(jobPosting => {
+          const jobPostingHTML = generateJobPostingHTML(jobPosting);
+          jobPostingsContainer.innerHTML += jobPostingHTML;
+        });
+      }
+
+      // Display job postings on page load
+      displayJobPostings();
+    });
+
+  </script>
+</body>
+
+</html>
