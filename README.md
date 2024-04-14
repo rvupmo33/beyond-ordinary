@@ -1,8 +1,12 @@
-# TechXlerate
+# TechXlerate Spring 2024 Hackathon
 
 ## Description
 
-This project aims to empower women.
+### Inspiration
+As students passionate about STEM, we've seen firsthand the lack of representation and support for women and non-binary individuals in our fields. Inspired to make a difference, we embarked on creating STEM Forums, a platform dedicated to empowering and championing diversity in STEM.
+
+### What it does
+At BeyondOrdinary, women can explore a platform showcasing women's achievements, and timelines illustrating their successes, interact with a chatbot for website assistance, enroll in courses with quizzes, reach out for inquiries, read success story blogs, discover job opportunities tailored for women, and much more!
 
 ### Usage
 
