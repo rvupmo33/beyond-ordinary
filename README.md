@@ -11,7 +11,7 @@ At BeyondOrdinary, women can explore a platform showcasing women's achievements 
 
 ### Information
 Submitted to: TechXcelerate 2024 Spring Hackathon<br>
-Final Position: 2nd Place
+Final Position: 2nd Place 🥈🎉
 
 ### Links
 - [GitHub pages Link](https://rvupmo33.github.io/beyond-ordinary/)
@@ -23,4 +23,4 @@ Final Position: 2nd Place
 - [Afreeninnovates](https://github.com/afreeninnovates)
 
 
-(Images do not belong to us - Credits go to Google, Nasa, Behance, Freepik and Vecteezy)
+(Images do not belong to us - Credits go to Google, Nasa, Behance, Freepik and Vecteezy | All Blogs were generated using GPT)
